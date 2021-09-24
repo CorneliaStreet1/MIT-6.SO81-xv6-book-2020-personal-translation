@@ -8,7 +8,7 @@
 
 本书通过 xv6 操作系统来阐述操作系统的概念，它提供 Unix 操作系统中的基本接口（由 Ken Thompson 和 Dennis Ritchie 引入），同时模仿 Unix 的内部设计。Unix 里机制结合良好的窄接口提供了令人吃惊的通用性。这样的接口设计非常成功，使得包括 BSD，Linux，Mac OS X，Solaris （甚至 Microsoft Windows 在某种程度上）都有类似 Unix 的接口。理解 xv6 是理解这些操作系统的一个良好起点。
 
-![figure0-1](D:\Pictures Of Markdown\6.S081\f0-1.png)
+![f0-1](D:\6.S081 Fall 2020\MIT-6.SO81-xv6-book-2020-personal-translation\pic\f0-1.png)
 
 如图0-1所示，xv6 使用了传统的**内核**概念 - **一个向其他运行中程序提供服务的特殊程序。**每一个运行中程序（称之为**进程**）都拥有包含**指令、数据、栈**的内存空间。**指令实现了程序的运算，数据是用于运算过程的变量，栈管理了程序的过程调用。**
 
